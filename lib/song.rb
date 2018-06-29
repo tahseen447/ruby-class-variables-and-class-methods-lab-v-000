@@ -22,7 +22,6 @@ class Song
   end
 
   def self.genres
-binding.pry
     return @@genres.uniq!
   end
 
